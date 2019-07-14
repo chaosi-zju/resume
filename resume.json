@@ -1,0 +1,176 @@
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-20190713",
+  "resume_title": "潘朝思 - 个人简历",
+  "name": "潘朝思",
+  "repo": "https://github.com/chaosi-zju/resume.git",
+  "job_description": ["后端研发工程师", "软件工程师"],
+  "contact": {
+    "phone": "17326084535",
+    "email": "chaosi@zju.edu.cn",
+    "wechat": {
+      "id": "17073369036",
+      "qrcode": "static/me.jpg"
+    },
+    "github": {
+      "id": "chaosi-zju"
+    }
+  },
+  "links": [{
+    "type": "repo",
+    "url": "https://github.com/hardfist/resume"
+  }, {
+    "type": "pdf",
+    "url": "static/hardfist.pdf"
+  }],
+  "education": [{
+    "type": "graduate",
+    "name": "浙江大学",
+    "major": "计算机科学与技术",
+    "start": "2017",
+    "end": "2020",
+    "desc": "在 CCNT 实验室，跟随导师做⾼性能嵌⼊式⽅向的项⽬， 现在主要负责 Qemu 虚拟化项⽬"
+  },{
+    "type": "undergraduate",
+    "name": "吉林大学",
+    "major": "软件工程(卓越工程师班)",
+    "start": "2013",
+    "end": "2017",
+    "desc":"以软件学院前 30 名的成绩考进卓越计划班，主修数据结构、操作系统、计算机组成、计算机⽹络"
+  }],
+  "skills": [{
+    "type": "about",
+    "item": [{
+      "summary": "",
+      "description": [
+        "本科时学习兴趣⼴，涉猎多，偏向应⽤层，学习能⼒和动⼿能⼒很强",
+        "研究⽣阶段是⾼性能嵌⼊式⽅向，主硬件虚拟化项⽬，对底层涉及较多"
+      ]
+    }]
+  }, {
+    "type": "language",
+    "item": [{
+      "summary": "`英语`",
+      "description": [
+        "四级：568分 | 六级：537分"
+      ]
+    },{
+      "summary": "`精通的技能`",
+      "description": [
+        "Java JavaScript"
+      ]
+    },{
+      "summary": "`熟悉的技能`",
+      "description": [
+        "C++ C  Linux MySQL ",
+        "android开发、web开发、⼩程序开发"
+      ]
+    }]
+  }, {
+    "type": "contest",
+    "item": [{
+      "summary": "`天池挑战赛`",
+      "description": [
+        "天池⼤赛-第五届中间件性能挑战赛初赛 ⽬前排名43"
+      ]
+    },{
+      "summary": "`PAT编程证书`",
+      "description": [
+        "PAT计算机程序设计能⼒考试甲级证书 95分"
+      ]
+    },{
+      "summary": "`蓝桥杯编程大赛`",
+      "description": [
+        "蓝桥杯全国软件和信息技术专业⼈才⼤赛",
+        "国赛三等奖、吉林省赛⼀等奖"
+      ]
+    },{
+      "summary": "`数学建模`",
+      "description": [
+        "数学建模⽐赛 吉林省赛⼆等奖"
+      ]
+    }]
+  }],
+  "experience": [{
+    "type": "internship",
+    "techtype": "backend",
+    "place": "阿里巴巴 CBU技术部",
+    "start": "2018.05",
+    "end": "现在",
+    "name": "后端研发",
+    "description": [
+      "主要参与汇⾦平台商业化项⽬，由于1688服务市场本身的分成结算等能⼒太⽼了，不支持三方分成，无法支撑现在正在推出的慧眼识货等核⼼产品",
+      "我的⼯作便是使1688服务市场对接汇⾦平台的⽀付、分成、结算等能⼒"
+    ],
+    "stack": ["java"],
+    "compatibility": "IE8+"
+  },{
+    "type": "project",
+    "techtype": "backend",
+    "project_type": "labor",
+    "name": "虚拟化项目",
+    "start": "2017.09",
+    "end": "现在",
+    "description": [
+      "导师所在的⾼性能计算与嵌⼊式实验室的科研项⽬，该项目与航天二院809所合作",
+      "我分责的任务是围绕⼀体化设计⽀撑平台和基础集成验证环境的配置/调试/验证/测试⼯具集",
+      "操作系统层面实现包括调试跟踪、断点设置、内存监视、故障注⼊和性能分析等功能"
+    ],
+    "stack": ["C"],
+    "compatibility": "IE9+"
+  },{
+    "type": "project",
+    "techtype": "backend",
+    "project_type": "outer",
+    "name": "宝兰奇电商⽹站",
+    "start": "2016.03",
+    "end": "2016.06",
+    "description": [
+      "独⽴实现⼀个购买商品的电商⽹站，包含商品展示、分类、购物⻋、购买、后台管理等全部功能",
+      "⽹站前台展示： http://mall.chaosi-zju.com",
+      "⽹站后台展示： http://mall.chaosi-zju.com/admin，后台账号密码均为super"
+    ],
+    "stack": ["Java"],
+    "compatibility": "IE9+"
+  },{
+    "type": "project",
+    "techtype": "backend",
+    "project_type": "school",
+    "name": "社交型学习应⽤-同学",
+    "start": "2015.05",
+    "end": "2016.03",
+    "description": [
+      "⼀个包含聊天、动态、问题讨论、博⽂等功能的 android app",
+      "成果：项⽬在学校'⼤创'答辩中被评为'国家级项⽬'，申请了软件著作权",
+      "PS:录制了⼀段app功能的视频，详情请⻅： http://project.chaosi-zju.com/learn.html"
+    ],
+    "stack": ["java"],
+    "compatibility": "IE9+"
+  },{
+    "type": "project",
+    "techtype": "backend",
+    "project_type": "personal",
+    "name": "微信小程序",
+    "start": "2018.09",
+    "end": "2018.11",
+    "description": [
+      "课余帮一创业⼩团队实现的⾼校交友微信⼩程序",
+      "在浙⼤已有1000多注册⽤户，详情微信搜索⼩程序：脉⾔翻牌⼦"
+    ],
+    "stack": ["Java"],
+    "compatibility": "IE9+"
+  },{
+    "type": "project",
+    "techtype": "backend",
+    "project_type": "personal",
+    "name": "小游戏",
+    "start": "2014.04",
+    "end": "2014.06",
+    "description": [
+      "纯Java实现的cs游戏，包含地图、⼈物移动、碰撞处理、射击、NPC寻路等功能",
+      "视频展示： http://project.chaosi-zju.com/minics.html"
+    ],
+    "stack": ["Java"],
+    "compatibility": "IE9+"
+  }]
+}

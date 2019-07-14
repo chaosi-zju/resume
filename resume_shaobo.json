@@ -1,0 +1,170 @@
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "汪少博 - 个人简历",
+  "name": "汪少博",
+  "repo": "https://github.com/jentlestea1/resume.git",
+  "job_description": ["后端工程师", "软件工程师"],
+  "contact": {
+    "phone": "15068712469",
+    "email": "jentlestea@zju.edu.cn",
+    "wechat": {
+      "id": "wangshaobo1992612",
+      "qrcode": "static/wechat.png"
+    },
+    
+    "github": {
+      "id": "jentlestea1"
+    }
+  },
+  "links": [{
+    "type": "repo",
+    "url": "https://github.com/jentlestea1/resume"
+
+  }, {
+    "type": "pdf",
+    "url": "static/jentlestea1.pdf"
+
+  }],
+  "education": [{
+    "type": "graduate",
+    "name": "浙江大学",
+    "major": "计算机科学与技术",
+    "start": "2016",
+    "end": "2019"
+  },{
+    "type": "undergraduate",
+    "name": "天津科技大学",
+    "major": "计算机科学与技术",
+    "start": "2010",
+    "end": "2014"
+  }],
+  "language": [{
+    "type": "english",
+    "certificate": [{
+      "type": "CET-6",
+      "full": "710",
+      "score": "534"
+    }],
+    "description": [
+      "能流畅阅读英文专业书籍、文档,规范及其他资料",
+      "可无字幕观看 MOOC 课程、开发者大会视频,YouTube教学视频",
+      "能够在英文邮件列表、Stack Overflow 等社区正常交流"
+    ]
+  }],
+  "experience":[
+    {
+    "type": "internship",
+    "techtype": "backend",
+    "place": "华为 华为中软 OS内核实验室",  
+    "start": "2018.07", 
+    "end": " 2018.09", 
+    "name": "x86 L3 cache访问优化",  
+    "description": [
+	"职责：设计和开发",
+        "使用`perf`抓取不同workload运行时cpu所记录的计数器的值，分析不同workload的指令执行特征", 
+        "实现`底层cache ways分配策略`（由于涉及到同组ways的连续性问题），并获取底层intel的rdt支持", 
+        "实现`上层动态分配cache ways策略`，其根据workload行为动态调整组内cache ways分配，参考论文，功能完成且完全自主实现",
+	"引入`phase detect`技术，分析workload行为，通过描绘L3 miss rate曲线预测cache way的细粒度分配，功能部分完成且完全自主实现",
+	"调试环境，测试实现的代码并统计结果,结果显示对部分测试集有提升效果" 
+    ]
+    },{
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "",
+    "name": "基于1553b总线设备虚拟化访问",
+    "description": [
+      "职责：设计，开发和参与",
+      "1)基于`CPS的contract理论`,对软件开发中的各个组件进行需求化设计,并在此基础上实现了一套`设备收发数据转存机制`",
+      "  设备收发数据转存机制提供读入固定格式的配置文件的功能，从而对总线路由和数据结构进行配置",
+      "  所述机制涉及CPS中的物理总线，通过将对应物理端口转化为虚拟端口来满足上层应用透明访问设备",
+      "  采用统一的时钟间隔控制总线中的数据传输，系统动态调整通路的优先级来确保时延有效",
+      "  结构化数据传输数据格式保证底层驱动引擎式编程正常工作",
+      "2)用c重写`OBS`(on board software)框架源码，开发出一套支持面向对象功能的c语言OBS框架",
+      "  修改已有的(qemu内的)q-object代码,使其符合OBS框架要求",
+      "  实现生成框架的工具：遍历搜索所有的c++工程文件，用图描述c++工程中所有类的继承关系以及c++文件中的必要信息(比如是否是静态或是否是虚函数等)，结合修改后的q-object代码，将c++工程转化为支持面向对象的c工程",
+      "3)使用`xslt`实现了一套生成部分模块代码的模板",
+      "  运行环境：linux，qemu-system-sparc，vcan，socket"
+    ],
+    "stack": ["c","tinyXml"],
+    "compatibility": ""
+  },{
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "",
+    "name": "星载设备虚拟化访问配置文件生成器",
+    "description": [
+      "职责：设计和开发",
+      "基于`angular.js`, `bootstrap`, `jQuery`, `canvas`",
+      "配置设备与接口之间的对应关系",
+      "可以自主创建设备模型和接口模型",
+      "支持表单配置方式和全框图操作",
+      "生成一个XML配置文件，提供给上一个项目",
+      "用户方案可以选择保存在服务器"
+    ],
+    "stack": ["bootstrap", "jQuery"],
+    "compatibility": "IE7+"
+  }],
+
+  "skills": [{
+    "type": "opera",
+    "item": [{
+      "summary": "`内核`",
+      "description": [
+	"熟悉BIOS，进程调度，内存管理等部分概念",
+        "阅读过linux系统中LRU，伙伴系统，BIOS等部分的源码"
+      ]
+    }, {
+      "summary": "`分布式`",
+      "description": [
+        "学习过MIT6.824`《Distributed Systems》`课程部分章节",
+        "对`mapreduce`，`raft`，`paxos`算法进行实践"
+      ]
+    },{
+      "summary": "`阅读书籍及实践`",
+      "description": [
+        "阅读书籍:《边干边学linux内核》、《深入理解linux内核》、《深入理解linux设备驱动程序》、《机器学习》等",
+        "实践：",
+	"利用实验室提供的星载计算机开发板进行嵌入式系统开发，在自研的嵌入式系统中嵌入两种图像处理任务（云判和拼接），同时对底层总线数据传输进行控制",
+        "对kswap的`LRU`算法有过课程实践，查看内核源码并分析冷热页的置换规律",
+        "参考中国科学技术大学的`《linux内核分析课程》`，实现简单的进程切换功能",
+        "学习过牛津大学Nando de Freitas的`《Maching learning》`课程，并对课程中的逻辑回归，神经网络反向传播等算法中的公式进行推导 "
+      ]
+    }]
+  }, 
+
+{
+    "type": "backend",
+    "item": [{
+      "summary": "`计算机基础`",
+      "description": [
+        "对本科期间学习过的计算机组成原理和数据结构等基本课程有较强理解，熟悉绝大部分基本算法，并能够快速学习掌握新的算法和知识",
+        "熟悉c/c++/js/java/go/python/html(尤其是`c`,`c++`,`python`,`js`,`go`)多种计算机语言,具有较强的代码编写能力"
+      ]
+    }, {
+      "summary": "`web`",
+      "description": [
+        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，并在项目中使用，如项目二",
+        "熟悉`bootstrap`，能很快使用`bootstrap`对页面进行较为复杂的布局",
+        "熟悉THREE.js提供的API",
+	    "阅读过`THREE.js`的源码，清楚部分功能的实现，在项目中使用过`THREE.js`",
+	"     阅读过`深入浅出NodeJs`一书,理解书上大部分内容,能够用`Express`搭建简单的博客",
+        "使用`jekyll`搭建自己的博客"
+      ]
+    }]
+  }, 
+
+  {
+    "type": "miscellaneous",
+    "item": [
+      "三年`Linux`使用经验，一年`mac`使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
+      "接触使用过多种语言(`C`/`C++`/`js`/`Java`/`Python`等),具有良好的数学素养以及计算机素养，能很快搭建底层逻辑业务实现代码，并适应新的业务场景，非常善于在原有的设计思想上进行新的思考，并做一些`创造性`的工作",
+      "能够使用`markdown`编写清晰简洁的中英文文档或博客，能够快速将新的创新点总结为专利",
+      "日常使用git与Xcode进行项目开发，也乐于尝试使用新的工具，git经验比较丰富，能够帮助团队解决工作中常见的版本控制问题",
+      "知道几种常见的机器学习算法,期待进一步学习机器学习相关内容",
+      "使用THREE.js做过项目",
+      "熟悉`AT&T`格式汇编代码",
+      "使用opencv做过图像拼接"
+    ]
+  }]
+}
